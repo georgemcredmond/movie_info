@@ -1,0 +1,7 @@
+/* Stylesheet for Movie App project
+   filename: styles.css author: George
+   Date: 10/23/19 */
+   
+#movies img, #movie img {
+	width: 100%;
+}

@@ -1,0 +1,52 @@
+<!-- MovieApp Project 10/23/19
+     filename: index.html  author:George
+	 Browser-based application that interacts with and pulls data from the OMDB API for movie info and movie posters
+-->
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Movie Info Application</title>
+	<!-- Links to stylesheets -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<!-- Script elements for the JavaScript -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js" integrity="sha256-S1J4GVHHDMiirir9qsXWc8ZWw74PHHafpsHp5PXtjTs=" crossorigin="anonymous"></script>
+	<script src="js/main.js" defer></script>
+</head>
+<body>
+	<nav class="navbar navbar-default">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="index.html">Movie Info App</a>
+			</div>
+		</div>
+	</nav>
+	
+	<div class="container">
+		<div class="jumbotron">
+			<h3 class="text-center">Search for any movie...</h3>
+			<form id="searchForm">
+				<input type="text" class="form-control" id="searchText" placeholder="enter a movie title"/>
+			</form>
+		</div>
+	</div>
+	
+	<div class="container">
+		<div id="movies" class="row">
+
+		</div>
+	</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
